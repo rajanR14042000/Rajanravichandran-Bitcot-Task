@@ -1,0 +1,143 @@
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Contact list */
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Buttons for View, Edit, and Delete */
+  .contact-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #fff;
+  }
+  
+  .contact-item button.view {
+    background-color: #2196F3;
+  }
+  
+  .contact-item button.edit {
+    background-color: #FFC107;
+  }
+  
+  .contact-item button.delete {
+    background-color: #F44336;
+  }
+  
+  .contact-item button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Modal styling */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    z-index: 1000;
+  }
+  
+  .modal h2 {
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Additional button styling inside the modal */
+  .modal .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .modal .button.reset {
+    background-color: #FF9800;
+  }
+  
+  .modal .button.close {
+    background-color: #757575;
+  }
+  
+  .modal .button.close:hover {
+    background-color: #616161;
+  }
+  
